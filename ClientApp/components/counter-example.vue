@@ -1,4 +1,4 @@
-﻿<template>
+<template>
   <div>
     <h1>Counter</h1>
 
@@ -47,7 +47,7 @@
 
   created() {
   setInterval(() => {
-  this.autoCount += 1
+  this.autoCount += 2
   }, 1000)
   }
   }
